@@ -2,11 +2,11 @@
 var isCookieJarOpen = null;
 
 function closeLid() {
-  /* answer here */
+ isCookieJarOpen=false
 }
 
 function openLid() {
-  /* answer here */
+isCookieJarOpen=true
 }
 
 
@@ -17,9 +17,9 @@ function outerFunction() {
 
   function innerFunction() {
     var world = 'World';
-    return /* answer here */;
   }
   return innerFunction();
+
 }
 
 
